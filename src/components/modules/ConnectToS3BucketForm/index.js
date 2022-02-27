@@ -81,7 +81,7 @@ const ConnectToS3BucketForm = () => {
   });
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [rememberMe, setRememberMe] = useState(eval(localStorage.rememberMe));
+  const [rememberMe, setRememberMe] = useState(false);
   const history = useHistory();
 
   useEffect(() => {
